@@ -52,8 +52,7 @@ a:hover,
 a:active,
 .dark-theme a:active,
 .theme-switcher:active,
-.dark-theme .theme-switcher:active,
-.dark-theme .button--text:active {
+.dark-theme .theme-switcher:active {
   transform: scale(0.9);
   filter: brightness(0.75);
 }
@@ -463,11 +462,13 @@ nav {
   color: var(--color-dark);
 }
 
-.modal--close:hover {
+.modal--close:hover,
+.dark-theme .modal--close:hover {
   transform: scale(1.1);
 }
 
-.modal--close:active {
+.modal--close:active,
+.dark-theme .modal--close:active {
   transform: scale(0.9);
 }
 
