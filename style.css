@@ -539,6 +539,8 @@ nav {
 
 .project {
   margin-bottom: 80px;
+  aspect-ratio: auto;
+  height: auto;
 }
 
 .project__wrapper {
