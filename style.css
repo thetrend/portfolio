@@ -335,7 +335,7 @@ nav {
 }
 
 .modal__language {
-  width: 25%;
+  width: 20%;
   padding: 16px;
   display: flex;
   align-items: center;
@@ -584,7 +584,7 @@ nav {
   left: 90px;
   translate: translateY(-50%);
   color: var(--color-light);
-  max-width: 550px;
+  max-width: 650px;
   opacity: 0;
   transition: opacity 300ms, transform 450ms ease;
 }
@@ -754,5 +754,9 @@ footer {
 
   .project__description--paragraph {
     display: none;
+  }
+
+  .modal__language {
+    width: 33%;
   }
 }

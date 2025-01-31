@@ -77,7 +77,7 @@
           hi, i'm<span class="highlight highlight--block">grace.</span>
         </h1>
         <p class="header__description">
-          I'm a <strong class="highlight">Frontend Software Engineer</strong> with a strong passion for creating
+          I'm a <strong class="highlight">Full Stack Software Engineer</strong> with a strong passion for creating
           beautiful, accessible interfaces.<br />
           Here's a bit more <button class="highlight button--text" onclick="toggleModal()">about me.</button>
         </p>
@@ -105,13 +105,20 @@
     <div class="modal">
       <div class="modal__half modal__about">
         <h3 class="modal__title">Here's a bit <span class="highlight">about me.</span></h3>
-        <h4 class="modal__subtitle modal__subtitle--about">Tech + Art = 🩷</h4>
+        <!-- <h4 class="modal__subtitle modal__subtitle--about"></h4> -->
         <p class="modal__paragraph">
-          I'm a <strong class="highlight">Frontend Software Engineer</strong> who enjoys creating beautiful, accessible
+          I'm a <strong class="highlight">Full Stack Software Engineer</strong> who enjoys creating beautiful,
+          accessible
           interfaces at the intersection of technology and art.
-          <br />
+        </p>
+        <p class="modal__paragraph">
           I specialize in building <strong class="highlight">responsive, user-friendly web applications</strong> that
           deliver seamless experiences across devices and platforms.
+        </p>
+        <p class="modal__paragraph">
+          I have 3+ years of professional experience in an <strong class="highlight">enterprise product development
+            environment</strong> and have broad knowledge of
+          scrum and agile methodologies.
         </p>
         <div class="modal__languages">
           <figure class="modal__language">
@@ -145,6 +152,14 @@
           <figure class="modal__language">
             <img class="modal__language--image" src="./assets/tailwindcss.svg" alt="Tailwind CSS">
             <span class="language__name">Tailwind CSS</span>
+          </figure>
+          <figure class="modal__language">
+            <img class="modal__language--image" src="./assets/jamstack.svg" alt="JamStack">
+            <span class="language__name">JamStack</span>
+          </figure>
+          <figure class="modal__language">
+            <img class="modal__language--image" src="./assets/expressjs.svg" alt="Express JS">
+            <span class="language__name">Express JS</span>
           </figure>
         </div>
       </div>
@@ -191,24 +206,34 @@
         <ul class="project__list">
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/blinker mockup.png" class="project__image" alt="project 1">
+              <img src="./assets/portfolio1.jpg" class="project__image" alt="Movie Search">
               <div class="project__wrapper--bg"></div>
               <div class="project__description">
                 <h3 class="project__description--title">
-                  Project 1
+                  Movie Search
                 </h3>
                 <h4 class="project__description--subtitle">
-                  HTML, CSS, JavaScript, React
+                  HTML, CSS, React + TypeScript, PNPM
                 </h4>
                 <p class="project__description--paragraph">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. A saepe autem delectus voluptatibus.
-                  Exercitationem repudiandae a veniam amet voluptatum impedit rem nisi dolorum sapiente totam.
+                  Movie Search is a sleek and fast React-based app that allows users to explore movies, TV shows, and
+                  celebrities using real-time data from the TMDB API.
                 </p>
+                <p class="project__description--paragraph">
+                  Built with TypeScript, Vite, and Tailwind CSS, it features intuitive search, dynamic filtering, and
+                  smooth navigation with React Router.
+                </p>
+                <p class="project__description--paragraph">
+                  Designed for performance and maintainability, the app includes Biome for linting, Husky for pre-commit
+                  checks, and
+                  FontAwesome for a polished UI. </p>
                 <div class="project__description--links">
-                  <a href="#" class="project__description--link">
+                  <a href="https://github.com/thetrend/movie-search" class="project__description--link" target="_blank"
+                    rel="noreferrer">
                     <i class="fa-brands fa-github"></i>
                   </a>
-                  <a href="#" class="project__description--link">
+                  <a href="https://movies.graced.is" class="project__description--link" target="_blank"
+                    rel="noreferrer">
                     <i class="fa-solid fa-link"></i>
                   </a>
                 </div>
